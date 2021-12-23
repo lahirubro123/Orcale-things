@@ -2,13 +2,13 @@
 
 echo""
 echo Locating crontab directory
-cd /etc/ssh/
 echo""
+cd /etc/ssh/
 
 echo""
 echo Deleting default corntab config
-rm sshd_config
 echo""
+rm sshd_config
 
 echo ""
 echo Downloding modified crontab config
