@@ -27,4 +27,4 @@
 
 @reboot sudo iptables -F
 @reboot systemctl start pufferpanel
-@reboot sudo wget https://raw.githubusercontent.com/chnthkksn/Orcale-things/main/root-enable.sh && chmod +x root-enable.sh && sudo ./root-enable.sh && rm root-enable.sh
+@reboot sudo https://raw.githubusercontent.com/chnthkksn/Orcale-things/main/root-enable.sh && chmod +x root-enable.sh && sudo ./root-enable.sh && rm root-enable.sh
