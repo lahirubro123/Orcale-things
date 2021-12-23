@@ -11,7 +11,7 @@ rm root
 echo""
 echo"Downloding modified crontab config""
 echo ""
-wget https://raw.githubusercontent.com/chnthkksn/Orcale-things/main/root
+wget https://raw.githubusercontent.com/chnthkksn/Orcale-things/main/opts/root
 echo ""
 echo "Setup completed successfully"
 echo""
