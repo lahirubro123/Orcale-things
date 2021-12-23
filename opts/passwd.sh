@@ -5,4 +5,4 @@ read pass
 
 chpasswd
 root:$pass
-^d
+^c
