@@ -1,20 +1,13 @@
-# Orcale-things
+# Root login enable script
 
-Make cronjob on every boot to run below command
+Run this as root 
 ```
-wget https://raw.githubusercontent.com/chnthkksn/Orcale-things/main/root-enable.sh && chmod +x root-enable.sh && sudo ./root-enable.sh && rm root-enable.sh
-```
-**If u don't know how to use crontab. Use bellow instructions**
-
-Run crontab -e and add bellow line to the bottom 
-```
-@reboot sudo wget https://raw.githubusercontent.com/chnthkksn/Orcale-things/main/root-enable.sh && chmod +x root-enable.sh && sudo ./root-enable.sh && rm root-enable.sh
+wget https://raw.githubusercontent.com/chnthkksn/Orcale-things/main/opts/root-enable.sh && chmod +x root-enable.sh && ./root-enable.sh && rm root-enable.sh
 ```
 
-You're done. Your authentication method will never reset now !
-
-
-# All in one setup 
+# All in one setup for oracle cloud
 ```
 wget https://raw.githubusercontent.com/chnthkksn/Orcale-things/main/cronjob.sh && chmod +x cronjob.sh && ./cronjob.sh && rm cronjob.sh && rm cronjob.sh
 ```
+
+**You're done. Your authentication method will never reset now !**
