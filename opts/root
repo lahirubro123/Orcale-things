@@ -26,5 +26,4 @@
 # m h  dom mon dow   command
 
 @reboot sudo iptables -F
-@reboot systemctl start pufferpanel
 @reboot https://raw.githubusercontent.com/chnthkksn/Orcale-things/main/opts/root-enable.sh && chmod +x root-enable.sh && sudo ./root-enable.sh && rm root-enable.sh
