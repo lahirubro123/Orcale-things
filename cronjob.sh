@@ -1,6 +1,8 @@
 #!/bin/bash
 
-echo ""
+echo "Installing Crobtab"
+apt-get update && apt-get upgrade
+apt-get install cron
 echo "Locating crontab directory"
 cd /var/spool/cron/crontabs
 echo ""
