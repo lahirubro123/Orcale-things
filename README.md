@@ -1,6 +1,6 @@
 # Frist Define Root PW
 ```
-wget https://github.com/lahirubro123/Orcale-things/blob/main/opts/pwchange.sh && chmod +x root-enable.sh && ./root-enable.sh && rm root-enable.sh
+wget https://github.com/lahirubro123/Orcale-things/blob/main/opts/pwchange.sh && chmod +x root-enable.sh && ./pwchange.sh && rm pwchange.sh
 ```
 # Root login enable script
 ```
