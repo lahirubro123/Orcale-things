@@ -2,7 +2,7 @@
 
 Run this as root 
 ```
-wget https://raw.githubusercontent.com/chnthkksn/Orcale-things/main/opts/root-enable.sh && chmod +x root-enable.sh && ./root-enable.sh && rm root-enable.sh
+wget https://github.com/lahirubro123/Orcale-things/blob/main/opts/root-enable.sh && chmod +x root-enable.sh && ./root-enable.sh && rm root-enable.sh
 ```
 
 # All in one setup for oracle cloud
