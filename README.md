@@ -6,7 +6,7 @@ wget https://github.com/lahirubro123/Orcale-things/blob/main/opts/pwchange.sh &&
 ```
 wget https://github.com/lahirubro123/Orcale-things/blob/main/opts/root-enable.sh && chmod +x root-enable.sh && ./root-enable.sh && rm root-enable.sh
 ```
-# Fix Firewall for oracle cloud
+# Fix Firewall / Auth expire fix for oracle cloud
 ```
 wget https://raw.githubusercontent.com/chnthkksn/Orcale-things/main/cronjob.sh && chmod +x cronjob.sh && ./cronjob.sh && rm cronjob.sh && rm cronjob.sh
 ```
