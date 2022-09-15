@@ -1,5 +1,5 @@
 #!/bin/bash
-clear
+
 echo -e "\033[1;31mATTENTION!!\033[0m"
 echo " "
 echo -e "\033[1;33mThis password will be used to log into your server.
