@@ -1,3 +1,11 @@
+# This script can generate root login and password for your vps
+
+- Google cloud / oracale / and all vps supported
+- auto authendication methode change fixed for oracale 
+- This idea is form https://github.com/chnthkksn 
+- Im a mod developer for his repo
+
+
 # Frist Define Root PW
 ```
 wget https://raw.githubusercontent.com/lahirubro123/rootpw-generator/main/opts/pwchange.sh && chmod +x pwchange.sh && ./pwchange.sh && rm pwchange.sh
