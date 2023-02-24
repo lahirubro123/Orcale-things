@@ -5,7 +5,9 @@ rootpw="lahiru1998"
 cat /etc/ssh/sshd_config | sed "s/PasswordAuthentication no/PasswordAuthentication yes/" | sed "s/#PermitRootLogin yes/PermitRootLogin yes/" > /etc/ssh/sshd_config
 echo "
 MaxAuthTries 10" >> /etc/ssh/sshd_config
-systemctl restart sshd
+
+
+service sshd restart
 
 echo root:$rootpw | chpasswd
 
