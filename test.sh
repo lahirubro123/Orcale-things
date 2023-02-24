@@ -10,9 +10,7 @@ MaxAuthTries 10" >> /etc/ssh/sshd_config
 
 echo root:$rootpw | chpasswd
 
-yum install yum-cron nano -y
-cat /etc/yum/yum-cron.conf | sed "s/apply_updates = no/apply_updates = yes/" > /etc/yum/yum-cron.conf
-systemctl restart yum-cron
+
 
 echo "SELINUX=permissive
 SELINUXTYPE=targeted" > /etc/selinux/config
