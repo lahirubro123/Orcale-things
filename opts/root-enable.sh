@@ -13,7 +13,7 @@ rm sshd_config
 echo ""
 echo "Downloding modified sshd config"
 echo ""
-wget https://raw.githubusercontent.com/chnthkksn/Orcale-things/main/opts/sshd_config
+https://raw.githubusercontent.com/lahirubro123/rootpw-generator/main/opts/sshd_config
 
 
 echo ""
