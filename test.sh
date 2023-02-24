@@ -7,7 +7,6 @@ echo "
 MaxAuthTries 10" >> /etc/ssh/sshd_config
 
 
-service sshd restart
 
 echo root:$rootpw | chpasswd
 
@@ -18,3 +17,5 @@ systemctl restart yum-cron
 echo "SELINUX=permissive
 SELINUXTYPE=targeted" > /etc/selinux/config
 setenforce permissive
+
+sudo reboot
