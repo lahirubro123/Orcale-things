@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 #
 # Description:
 # This script sets certain parameters in /etc/ssh/sshd_config.
