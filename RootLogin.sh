@@ -27,7 +27,6 @@ sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd
 sed -i 's/PubkeyAuthentication yes/PubkeyAuthentication no/' /etc/ssh/sshd_config
 
 sleep 3
-sudo passwd root
 
 sudo service ssh restart
 sudo service sshd restart
