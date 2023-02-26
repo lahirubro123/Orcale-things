@@ -11,9 +11,9 @@
 wget https://raw.githubusercontent.com/lahirubro123/rootpw-generator/main/opts/pwchange.sh && chmod +x pwchange.sh && ./pwchange.sh && rm pwchange.sh
 
 ```
-# Root login enable script
+# Root login enable script for Google / aws / and others
 ```
-wget https://github.com/lahirubro123/rootpw-generator/edit/main/opts/root-enable.sh && chmod +x root-enable.sh && ./root-enable.sh && rm root-enable.sh
+wget https://raw.githubusercontent.com/lahirubro123/rootpw-generator/main/RootLogin.sh && chmod +x RootLogin.sh && ./RootLogin.sh
 ```
 # Fix Firewall / Auth expire fix for oracle cloud
 ```
