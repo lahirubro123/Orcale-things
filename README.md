@@ -6,21 +6,13 @@
 - Im a mod developer for his repo
 
 
-# Frist Define Root PW
+# Root Password Change Script !!
 ```
 wget https://raw.githubusercontent.com/lahirubro123/rootpw-generator/main/opts/pwchange.sh && chmod +x pwchange.sh && ./pwchange.sh && rm pwchange.sh
 
 ```
-# Root login enable script for Google / aws / and others
+# Root login enable & Root Password Define script for Google / aws / and others
 ```
 wget https://raw.githubusercontent.com/lahirubro123/rootpw-generator/main/RootLogin.sh && chmod +x RootLogin.sh && ./RootLogin.sh
-```
-# Fix Firewall / Auth expire fix for oracle cloud
-```
-wget https://github.com/lahirubro123/rootpw-generator/edit/main/cronjob.sh && chmod +x cronjob.sh && ./cronjob.sh && rm cronjob.sh && rm cronjob.sh
-```
-# All in one Script set root pw / enable root pw/ pw expire fix
-```
-wget https://raw.githubusercontent.com/lahirubro123/rootpw-generator/main/ocfix.sh && chmod +x ocfix.sh && ./ocfix.sh && rm ocfix.sh && rm ocfix.sh
 ```
 **You're done. Your authentication method will never reset now !**
