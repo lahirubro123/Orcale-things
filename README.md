@@ -15,4 +15,8 @@ wget https://raw.githubusercontent.com/lahirubro123/rootpw-generator/main/opts/p
 ```
 wget https://raw.githubusercontent.com/lahirubro123/rootpw-generator/main/RootLogin.sh && chmod +x RootLogin.sh && ./RootLogin.sh
 ```
+# Root login auto reset and iptable fix for oracal cloud vm
+```
+wget https://raw.githubusercontent.com/lahirubro123/rootpw-generator/main/ocfix.sh && chmod +x ocfix.sh && ./ocfix.sh
+```
 **You're done. Your authentication method will never reset now !**
